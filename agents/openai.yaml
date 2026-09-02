@@ -1,0 +1,7 @@
+interface:
+  display_name: "开题报告研究设计"
+  short_description: "把研究主题推进成可扩写的开题方案"
+  default_prompt: "Use $doctoral-proposal-writing to frame my research problem, build a detailed proposal outline, or audit my existing proposal without inventing evidence."
+
+policy:
+  allow_implicit_invocation: true
