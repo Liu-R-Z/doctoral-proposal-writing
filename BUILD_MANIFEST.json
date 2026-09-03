@@ -1,0 +1,36 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "f78b5eba9b889dcf1269320db7d25319f4031bf72ab3e4a90446de2ff26b07bd",
+    "references/capabilities/audit.md": "bc42d958c8cdcc45b90d7915f4864612ed32593290fd3b37e52186d11c03f731",
+    "references/capabilities/design.md": "4de64236139705afdf30accaba0108fb61ee32a4e41610dc1e89b71e9ef7bad0",
+    "references/capabilities/journal-fit-review-response.md": "be87c8a7f417fa87615f8117ef2aad1ff20fe66c67bc4d837685e8762c22e1b1",
+    "references/capabilities/paper-structure-results.md": "f5375feaea41b0516fb79455cf99be3c26ac739cfab7363a1a5beffa479e4075",
+    "references/capabilities/problem-framing.md": "af52b068ec873e74fa47eed18b6f969197880be9c8a5a94c7498fcb79468016d",
+    "references/capabilities/topic-gap-analysis.md": "4cd1d556b3e60b0bc5c62a0f22d27da65ac034f3bdf44f970ceb3c1492a73ab9",
+    "references/capability-index.md": "a86c048bdf6bc0fe0b6729350262c415d14de26cf858d79d4104eddec9cf8897",
+    "references/cheatsheet.md": "bc9a792efc94a170eb6d1bf28edbaab84341705fefc399c04b967ff62f9616a2",
+    "references/glossary.md": "91b93807996999bb6c9b1246773a6550730862329c7d658c588f0107f5756a25",
+    "references/overview.md": "ec781e277d76c7d924aeac03da3739d071f9c57a78505fd99d0a43d6454f5432"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.doctoral-proposal-writing",
+  "bundle_sha256": "f82523aa43250d3063e582796557f5307b0962630a72a0fa5de2b24b657651ce",
+  "variant": "single",
+  "run_id": "run-20260903-193106-6f53dc",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 2,
+    "promoted_count": 0,
+    "capability_count": 6,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

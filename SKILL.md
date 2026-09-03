@@ -1,116 +1,62 @@
 ---
 name: doctoral-proposal-writing
 description: |
-  Use when the user asks to draft, restructure, or audit a Chinese doctoral or master's research proposal, opening report, or research plan. Turn a research topic or supplied materials into a bounded scientific problem, evidence-aware literature gap, why-what-how design, goal-content-method matrix, technical route, evaluation plan, risks, and next actions. Do not use for standalone topic discovery, full literature novelty audits, experiment protocols, language polishing, translation, or formatting when the research design is already fixed. Never invent citations, data, results, novelty, official requirements, or endorsements.
+  当用户要从研究主题、现实痛点或文献材料形成、重构或审查开题报告，或把研究方案推进为模型/算法论文并准备投稿时调用。先判断科学问题和文献缺口，再用 why-what-how 组织目标、内容、关键问题、方法、技术路线、结果与贡献，并检查问题意识是否贯穿全文。适用于中文研究计划、开题报告、模型/算法论文结构和投稿准备；不编造创新、数据、结果、文献结论、官方格式或录用结果，也不替代学科方法、伦理、数据许可和目标期刊最新要求。关键触发：开题报告、研究计划、科学问题、研究论文结构、模型、算法、投稿、审稿意见、research proposal、academic paper。
+metadata:
+  cangjie.generated-by: cangjie-tools v2.5.0
+  cangjie.variant: single
+  cangjie.bundle-id: bundle.doctoral-proposal-writing
+  cangjie.capability-count: 6
+  cangjie.entrypoint-count: 1
 ---
-# Academic Writing: Research Proposal Design
+# 博士生专业写作课程：课题选择、开题、论文写作与投稿 — 全书能力入口
 
-Use this Skill to move a research idea from topic to executable proposal. The method framework was distilled from a Chinese academic-writing course taught by a Yangtze River Scholar and implemented as an independent Skill.
+## 触发与不触发
 
-## Trigger boundary
+**适用**：与本书能力域相关的咨询与任务（见下方路由表的意图列）。
+**不适用**：
+- 没有任何研究材料却要求保证创新、可行性、发表或答辩结果。
+- 编造文献、数据、实验结果、导师意见、研究基础、引用或事实。
+- 把课程案例、旧格式、学校习惯或模型示例直接当作当前项目的事实和官方规范。
+- 仅需要翻译、润色、排版或目标期刊格式调整，且研究设计已经冻结。
+- 要求保证论文一定录用，或把课程展示的期刊信息当作当前投稿事实。
 
-### Trigger
+## 核心原则（常驻速览，概览类问题读到这里即可回答）
 
-Use when the request contains proposal context and asks to:
+1. 先把主题、需求或文献现象提炼为一个有边界、可回答的核心科学问题，再开始组织报告。
+2. 文献综述必须比较问题、假设、方法、适用范围和不足，不能用引用数量代替研究缺口。
+3. 用 why-what-how 建立目的/意义、目标/内容、方法/路线之间的可追溯对应关系。
+4. 所有重要主张都要区分已验证事实、研究假设、预期结果和待确认事项。
+5. 先审逻辑、证据、可行性和适用边界，再做语言与格式优化。
+6. 论文结构必须让问题、模型、方法、结果和结论逐段对应，结果表达要包含环境、比较和启示。
+7. 期刊选择是匹配问题，不是排名问题；范围、文章类型、格式和最新指南必须在投稿前重新核验。
 
-- draft or expand a doctoral or master's opening report;
-- restructure a research proposal or research plan;
-- turn a topic and materials into research questions, objectives, contents, methods, or a technical route;
-- audit proposal logic, feasibility, innovation claims, or risks.
+## 能力路由（先读本表，按意图加载 1 张能力卡）
 
-### Do not take over
-
-Hand off or stay narrow when the request is only:
-
-- discovering topics without a proposal-design goal;
-- conducting a complete literature search or novelty audit;
-- designing an approved experiment or statistical protocol;
-- polishing, translating, typesetting, or adapting a fixed design;
-- checking a school's latest official template without supplied requirements.
-
-## Operating protocol
-
-1. **Classify the intent.** Choose one primary mode: `problem-framing`, `topic-gap`, `design`, or `audit`.
-2. **Inspect the supplied material.** Separate what the user supplied from what is inferred. If a material decision is missing, ask one highest-priority question at a time. For a research request, resolve the core problem before asking about data, method, or venue.
-3. **Build an evidence ledger.** Mark important statements as one of:
-   - `[已提供事实]` — directly present in user material or a checked source;
-   - `[用户假设]` — supplied as an assumption, not yet verified;
-   - `[候选方案]` — a proposed research or method option;
-   - `[预期结果]` — a result the study may produce, not an observed result;
-   - `[待核验]` — requires literature, data, policy, method, or permission checks.
-4. **Load only what is needed.** Read the primary capability card first. Add at most one helper card when its condition is met. Do not load all capability cards by default.
-5. **Produce the mode-specific output.** Use the contracts below and keep claims no stronger than their evidence status.
-6. **Run the closeout check.** Confirm that the core problem, evidence, goal, content, method, evaluation, expected output, risks, and unresolved decisions are visible and connected.
-
-## Mode contracts
-
-### `problem-framing`
-
-Return:
-
-- research object and context;
-- observed phenomenon or practical pressure;
-- central tension;
-- one bounded core scientific question;
-- two to four supporting questions, if needed;
-- scope and exclusions;
-- observable outcomes;
-- unresolved assumptions.
-
-Do not turn a product, platform, algorithm, or broad field name into a scientific question.
-
-### `topic-gap`
-
-Return:
-
-- literature comparison dimensions;
-- established findings and disagreements, each with source status;
-- candidate gap;
-- relation to the proposed study;
-- similar-work checks still required;
-- current claim strength: `candidate`, `partially supported`, or `verified`.
-
-Without supplied or independently checked literature, write a candidate gap and a retrieval task. Do not claim “first,” “fills a gap,” or complete coverage.
-
-### `design`
-
-Build the proposal in this order:
-
-1. why: source of the problem, purpose, significance, and boundary;
-2. what: overall objective, two to five research contents, key questions, and expected outputs;
-3. how: data or materials, theory, method, technical route, evaluation, stages, dependencies, and risks.
-
-Always include a goal-content-method-evaluation-output matrix. A missing field remains `[待核验]` or `[待补充]`; do not fill it with generic facts. Distinguish a proposal skeleton, a draft, and a submission-ready document.
-
-### `audit`
-
-Return findings in priority order:
-
-- **Blocker**: prevents a credible proposal or makes the planned study unactionable;
-- **Major**: weakens evidence, logic, novelty, or feasibility;
-- **Minor**: can be fixed during expansion or polishing.
-
-For every finding, give the location, reason, evidence status, concrete fix, and the layer to revisit: problem, gap, method, evaluation, or output. Do not silently rewrite a blocked design into a different study.
-
-## Stop conditions
-
-Stop at a structured draft plus a confirmation list when any of these is missing:
-
-- a bounded research problem;
-- evidence for a literature or novelty claim;
-- data, access, sample, or permission needed by the proposed method;
-- an evaluation criterion for the claimed result;
-- a current institutional or venue requirement that the user expects to be followed.
-
-Do not invent citations, data, experiments, findings, supervisor opinions, funding, institutional rules, or publication outcomes. Do not present a course example as evidence for the user's field.
-
-## Capability routing
-
-| Intent | Primary card | Add one helper only when |
+| 用户意图 | 先读 | 补读/备注 |
 |---|---|---|
-| Narrow a broad topic into a research question | `references/capabilities/problem-framing.md` | a concrete literature gap is already part of the request |
-| Compare prior work and locate a gap | `references/capabilities/topic-gap-analysis.md` | the research problem itself is still ambiguous |
-| Build or restructure a proposal | `references/capabilities/design.md` | the core problem is unclear or a supplied literature gap must be checked |
-| Audit an existing proposal | `references/capabilities/audit.md` | the audit finds a missing design mapping that must be reconstructed |
+| 从现实需求提炼科学问题；从宽泛主题收窄研究问题；检查问题意识贯穿题目和章节 | references/capabilities/problem-framing.md | references/capabilities/topic-gap-analysis.md、references/capabilities/design.md、references/capabilities/audit.md |
+| 判断选题价值；从文献综述提炼研究缺口；评估创新性和研究基础 | references/capabilities/topic-gap-analysis.md | references/capabilities/problem-framing.md、references/capabilities/design.md、references/capabilities/audit.md |
+| 写开题报告；重构研究计划；建立目标内容方法技术路线对应关系 | references/capabilities/design.md | references/capabilities/problem-framing.md、references/capabilities/topic-gap-analysis.md、references/capabilities/audit.md |
+| 审查开题报告逻辑；检查创新和可行性；发现方法先行和理想化模型 | references/capabilities/audit.md | references/capabilities/problem-framing.md、references/capabilities/topic-gap-analysis.md、references/capabilities/design.md |
+| 构建模型或算法论文结构；从开题方案推进学术论文；组织仿真结果与比较分析；区分学位论文与学术论文表达 | references/capabilities/paper-structure-results.md | references/capabilities/problem-framing.md、references/capabilities/topic-gap-analysis.md、references/capabilities/design.md、references/capabilities/audit.md、references/capabilities/journal-fit-review-response.md |
+| 判断论文与期刊是否匹配；制定投稿策略；检查投稿材料；回复审稿意见；处理退稿后的修改与再投稿 | references/capabilities/journal-fit-review-response.md | references/capabilities/paper-structure-results.md、references/capabilities/topic-gap-analysis.md、references/capabilities/audit.md |
 
-For terminology, rules, or the full capability index, read `references/glossary.md`, `references/cheatsheet.md`, or `references/capability-index.md` only when needed. Use `references/overview.md` for a high-level description.
+**非能力类查询**：
+- 书名/作者/章节/整书概览 → references/overview.md
+- 术语解释 → references/glossary.md
+- 决策规则速查（不需要原文依据时） → references/cheatsheet.md
+- 完整意图与关键词索引（本表未覆盖的意图先查这里） → references/capability-index.md
+
+## 加载规则
+
+- 每次任务先读本文件，再按路由表加载 **1** 张能力卡；任务明确跨域时最多加载 2 张。
+- 概览/书名类问题不加载能力卡，用「核心原则」与 overview.md 回答。
+- 路由表与 capability-index.md 都无法命中的意图，明确告知超出本书范围，不要硬套。
+
+## 边界与判停
+
+- 核心问题、关键证据、数据/材料、方法、权限或评价标准缺失时，输出结构化待确认清单，不伪装成定稿。
+- 文献缺口只能由“研究较少”支持时，标记为待核验并停止写成确定创新。
+- 结论、预期成果或应用价值超出假设、数据和方法覆盖范围时，回退到问题或方案层重写。
+- 目标院系、学校或期刊的最新模板和格式未核对时，只提供课程结构建议，不声称格式合规。
