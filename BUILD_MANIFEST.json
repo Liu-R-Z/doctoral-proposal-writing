@@ -1,23 +1,25 @@
 {
   "tool": "cangjie-tools v2.5.0",
   "published_hashes": {
-    "SKILL.md": "f78b5eba9b889dcf1269320db7d25319f4031bf72ab3e4a90446de2ff26b07bd",
-    "references/capabilities/audit.md": "bc42d958c8cdcc45b90d7915f4864612ed32593290fd3b37e52186d11c03f731",
-    "references/capabilities/design.md": "4de64236139705afdf30accaba0108fb61ee32a4e41610dc1e89b71e9ef7bad0",
-    "references/capabilities/journal-fit-review-response.md": "be87c8a7f417fa87615f8117ef2aad1ff20fe66c67bc4d837685e8762c22e1b1",
-    "references/capabilities/paper-structure-results.md": "f5375feaea41b0516fb79455cf99be3c26ac739cfab7363a1a5beffa479e4075",
+    "SKILL.md": "1cea752f7de89d40cdc7fde2966ad50dd4a9f33bb788f56d8e33ea71b366e1da",
+    "references/capabilities/audit.md": "403a01f35a89e01518dca644ce8d97ac77c6154775caa17fc1a36c5abd12cbf5",
+    "references/capabilities/design.md": "c9ef5753ecc2b2fe3a4df36e87c9d2356fc1d9e224dca446c502ee4363dc85ac",
+    "references/capabilities/journal-fit-review-response.md": "bb2e68c529ab0c96e17f44dea9b1d8ba71cbb5f54b42cc5298755cc07dd851f5",
+    "references/capabilities/paper-logic-revision.md": "ad766a7d4117e722faa6cef4f380ec8b15558799b2bbabbd050e7086adf5a369",
+    "references/capabilities/paper-structure-results.md": "ab0d5b61d3ae0bf0b7468242f4793b5f59f42d49ba79427ada888efa26cd7534",
     "references/capabilities/problem-framing.md": "af52b068ec873e74fa47eed18b6f969197880be9c8a5a94c7498fcb79468016d",
     "references/capabilities/topic-gap-analysis.md": "4cd1d556b3e60b0bc5c62a0f22d27da65ac034f3bdf44f970ceb3c1492a73ab9",
-    "references/capability-index.md": "a86c048bdf6bc0fe0b6729350262c415d14de26cf858d79d4104eddec9cf8897",
-    "references/cheatsheet.md": "bc9a792efc94a170eb6d1bf28edbaab84341705fefc399c04b967ff62f9616a2",
+    "references/capability-index.md": "bacbe45c9fcac04038d96da7a652d824a6d8d5256221322c3243214b27718f7c",
+    "references/cheatsheet.md": "f5ce194dac6f8f64244fdd76a4e11aff3cb4b1cc8db550befbd93491bdc4cdc7",
     "references/glossary.md": "91b93807996999bb6c9b1246773a6550730862329c7d658c588f0107f5756a25",
-    "references/overview.md": "ec781e277d76c7d924aeac03da3739d071f9c57a78505fd99d0a43d6454f5432"
+    "references/overview.md": "ec781e277d76c7d924aeac03da3739d071f9c57a78505fd99d0a43d6454f5432",
+    "references/writing-judgment-framework.md": "28d08af7350ea443c10143e562fb3fb24064ade7ef203dd2f5a5a94ba526f641"
   },
   "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
   "bundle_id": "bundle.doctoral-proposal-writing",
-  "bundle_sha256": "f82523aa43250d3063e582796557f5307b0962630a72a0fa5de2b24b657651ce",
+  "bundle_sha256": "37dff9f7abb6b69e25e0cd247029c4c6084749506c89b12ec16702a24eadc723",
   "variant": "single",
-  "run_id": "run-20260903-193106-6f53dc",
+  "run_id": "run-20260915-logic-methods-sync",
   "decision": {
     "schema_version": 1,
     "requested": "single",
@@ -25,7 +27,7 @@
     "decision_policy": "single-first-v1",
     "skill_budget": 2,
     "promoted_count": 0,
-    "capability_count": 6,
+    "capability_count": 7,
     "reasons": [
       "用户显式选择 single，auto 决策器不覆盖用户选择"
     ],
